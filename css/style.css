@@ -19,7 +19,13 @@ button {
   padding: 0;
 }
 
-p, h1, h2, h3, h4, h5, h6 {
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin: 0;
 }
 
@@ -89,6 +95,18 @@ p, h1, h2, h3, h4, h5, h6 {
 
 .inner-call-to-action {
   max-width: 545px;
+  position: relative;
+}
+
+.inner-call-to-action::after {
+  content: '';
+  width: 738px;
+  height: 611px;
+  background: url('../img/inner-bg.png');
+  position: absolute;
+  top: -100px;
+  right: -655px;
+  z-index: 0;
 }
 
 .call-to-action-title {
@@ -97,6 +115,8 @@ p, h1, h2, h3, h4, h5, h6 {
   color: #fff;
   line-height: 1.29;
   margin-top: 55px;
+  z-index: 1;
+  position: relative;
 }
 
 .call-to-action-desq {
@@ -108,7 +128,7 @@ p, h1, h2, h3, h4, h5, h6 {
   margin-bottom: 55px;
 }
 
-.call-to-action-desq >span {
+.call-to-action-desq>span {
   color: #36a7b9;
   font-weight: 700;
 }
