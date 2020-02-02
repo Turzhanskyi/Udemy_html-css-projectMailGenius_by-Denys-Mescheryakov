@@ -8,4 +8,6 @@
 
 ### Автор: Denys Mescheryakov
 
+Layout URL: https://www.figma.com/file/yklifRuRdBND4k6wlA7So0/Easy-Code?node-id=0%3A1
+
 Udemy URL: https://www.udemy.com/course/html-css-from-zero/learn/lecture/17389224#overview
