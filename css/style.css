@@ -79,8 +79,8 @@ h6 {
   margin-left: 66px;
 }
 
-.main-header-nav a+a,
-.info-header-nav a+a {
+.main-header-nav a + a,
+.info-header-nav a + a {
   margin-left: 30px;
 }
 
@@ -131,7 +131,7 @@ h6 {
   margin-bottom: 55px;
 }
 
-.call-to-action-desq>span {
+.call-to-action-desq > span {
   color: #36a7b9;
   font-weight: 700;
 }
@@ -170,7 +170,7 @@ h6 {
   cursor: pointer;
 }
 
-.inner-service-list-item+.inner-service-list-item {
+.inner-service-list-item + .inner-service-list-item {
   margin-left: 10px;
 }
 
